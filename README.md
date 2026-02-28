@@ -23,7 +23,11 @@ openssl req -new -newkey rsa:4096 -days 3650 -nodes -x509 -subj "/C=NA/ST=NA/L=N
 Wing Tunnel Port
 
 ```bash
-ipv4:8443
+localhost:8443
+```
+
+```bash
+wings --debug
 ```
 
 ```bash
